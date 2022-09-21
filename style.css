@@ -1,0 +1,102 @@
+body{
+    padding:0;
+    margin:0;
+     background-color: #000;
+    color:#d0cccc;
+	margin:auto;
+    
+}
+
+#outerWeightDiv{
+	align-items: center;
+	margin-left: 40px;
+}
+#WeightDiv{
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#InputWeight{
+	width: 100px;
+	margin-top: 20px;
+}
+#inputDiv{
+	width: 110px;
+}
+#intro{
+	text-align: center;
+}
+
+#enterweight{
+	text-align: center;
+	font-size: 1.15em;
+	margin:20px ;
+}
+#enterweight input{
+	position: relative;
+	bottom:5px;
+}
+
+input[type="button" i]{
+  appearance: auto;
+  text-align: center;
+  border-color:grey;
+  
+  cursor: default;
+  box-sizing: border-box;
+  background-color: rgb(225, 216, 216);
+  padding: 1px 6px;
+  border-width: 2px;
+}
+div{
+	display: block;
+}
+h1{
+	display: block;
+	font-size:3em;
+	font-weight: bold;
+	margin:0;
+}
+h2{
+	font-size: 3em;
+	text-align: center;
+	color:#716AF5;
+	margin:20px ;
+}
+
+.planet{
+	width:200px;
+	padding:10px;
+	text-align: center;
+}
+
+.button{
+	text-align: center;
+	margin:auto;
+	position: fixed;
+	display:flex;
+
+}
+h4{
+	font-size: 1.5em;
+	margin:1 rem;
+	display: block;
+	font-weight: bold;
+}
+
+p{
+	line-height: 1.5em;
+	font-size:1.2em;
+
+}
+.planet img{
+	margin-bottom: 1rem;
+	margin-top: auto;
+	height: 180px;
+	width:auto;
+
+}
